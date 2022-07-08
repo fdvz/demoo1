@@ -1,0 +1,121 @@
+/* 清除所有内外边距*/
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+/*网页背景颜色 */
+body{
+    background-color:#F1F5F8;
+
+}
+
+/*导航栏样式*/
+#nav{
+    position: fixed;
+top: 0px;
+background-color:#FFFFFF;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    border: 1px solid #ECECEC;
+
+
+}
+#nav ul{
+
+    float:right;
+    position: fixed;
+    top: 0px;
+    left: 350px;
+}
+
+#nav li{
+    font-size: 17px;
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    border-bottom: 2px;
+    margin: 19px auto;
+
+
+
+}
+/*点击导航栏字体变粗*/
+
+#nav li:hover{
+    font-weight: bold}
+/*logo*/
+.logo{
+    position: fixed;
+    top: 6px;
+    left: 250px;
+}
+
+/*主体内容*/
+
+#content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+/*内容下的div*/
+.conter{
+    background-color:#FFFFFF;
+    width: 350px;
+    height: 120px;
+    margin: 20px;
+    padding: 5px;
+
+}
+/*内容下里面的标题样式*/
+.title{
+
+    margin-left: 50px;
+
+font-size: 15px;
+
+}
+
+/*标题描述*/
+.title_description{
+    margin-left: 50px;
+    font-size: 10px;
+}
+/*点击内容有个特殊效果*/
+.conter:hover{
+box-shadow: 2px 2px 30px rgba(4,15,49,0.1);
+    transform: scale(1.01);
+    transition: all ease 0.1s;
+}
+/*点击按钮实现显示二维码*/
+.input{
+    position: fixed;
+    top: 6px;
+    right: 250px;
+   margin-top: 11px;
+}
+/*学习笔记小标题*/
+.smalltitle{
+
+ font-size: x-large;
+    font-family: "monospace";
+    text-align: center;
+    margin-top: 5px;
+}
+/*路线图*/
+#luxian{
+    text-align: center;
+    margin-top: 5px;
+}
+/*可视化图表*/
+#main{
+    margin-left: 135px;
+ }
